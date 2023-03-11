@@ -1,0 +1,599 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Roboto:ital,wght@1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'poppins';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+} 
+
+header ul{
+    display: flex;
+    width:75% ;
+    list-style:none ;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+header .menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+header .menu span img{
+    height: 1rem;
+}
+header h1 span{
+    color: blue
+}
+header h1{
+    margin-top:1rem;
+}
+
+.asd{
+    color: blue;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.asd1{
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.asd2{
+    color: rgb(214, 10, 163);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+.one .left {
+    padding: 2rem;
+}
+.one .left h1{
+    color: #666666;
+    font-size: 3rem;
+    
+}
+.one .left p{
+    font-weight: lighter;
+    font-size: 1.8rem;
+}
+
+.button{
+    border: none;
+    background-color:#0067ac;
+    color: white;
+    width: 6rem;
+    border-radius: 30px;
+    font-weight:bolder ;
+    height: 2rem;
+    margin-top: 0.6rem;
+    cursor: pointer;
+}
+
+.one .left .feature{
+    display: flex;
+    align-items: center;
+    margin: 2vh 0;
+}
+.one .left .featur{
+    display: flex;
+    align-items: center;
+    margin-top: 2vh 0;
+}
+.one .left .featur img{
+    height: 2.5rem;
+}
+
+.one .left .feature img{
+    height: 3.5rem;
+}
+
+.one .left .feature p{
+font-size: 1.2rem;
+
+margin-left: 1rem;
+}
+.one .left .featur p{
+    font-size: 0.7rem;
+    
+    margin-left: 0.4rem;
+    }
+
+.one .right {
+    position: relative;
+}
+    .one .right img{
+        width: 100%;
+        height: auto;
+    }
+    .one .right .background{
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        top: 0;
+    
+    }
+
+
+
+
+
+
+
+.two .left{
+    position: relative;
+}
+
+    .two .left img{
+        width: 100%;
+        height: auto;
+    }
+
+    .two .left .background{
+        left: 0;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width:100%;
+    }
+
+    .two .left .foreground{
+        height: 50px;
+    }
+
+    .two .right  {
+        padding: 2rem;
+    }
+
+    .two .right h1{
+        color: #666666;
+    }
+    .two .right h1{
+        margin-top: 1rem;
+    }
+    .two .right p{
+        margin-top: 1rem;
+    }
+    .two .right .button{
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+
+    
+
+
+
+.three{
+    padding: 2rem;
+    text-align: center;
+}
+.three h2{
+    color: #666666;
+    font-size: 2rem;
+}
+.three h5{
+    
+    font-size: 1.7rem;
+}
+.three .offers .offer img{
+    height: 3em;
+}
+.three .offers .offer{
+margin-top: 1rem;
+}
+.three .offers .offer h6{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+.three .offers .offer p{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+
+
+
+.four{
+    padding: 2rem;
+    text-align: center;
+}
+
+.four .class h3{
+
+    font-size: 1rem;
+}
+.four .class h4{
+    font-size: 2rem;
+    color: #666666;
+
+}
+.four .class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.four .foods .food img{
+height: auto;
+width: 65%;
+}
+
+.four .foods .food:hover{
+    background-color:#0067ac;
+    color: white;
+}
+.four .foods .food .button:hover{
+    background-color:white;
+    color: black;
+}
+
+    
+.four .foods .food{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.four .foods .food {
+    border: 1px solid black;
+border-radius: 10%;
+}
+
+.botton{
+    width: 50%;
+    padding: 0.5rem;
+}
+
+
+.four .foods .food span{
+    color:orangered;
+}
+
+.four .all{
+    width: 50%;
+    
+}
+footer{
+    height:vh;
+}
+
+footer .special{
+    padding: 2rem;
+    text-align: center;
+}
+footer .special .input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .special .input input{
+    padding: 0.8rem;
+    margin-top: 3vh;
+    width: 60%;
+    border-radius: 30px;
+    height: 2.5rem;
+    border: 1px solid  #666666;
+}
+footer .detail h1{
+padding-top:3vh ;
+}
+footer .details{
+    background: linear-gradient(to bottom ,#bbfebb, #0067ac);
+    text-align: center;
+    height:50vh;
+}
+
+footer .details .boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+footer .details .detail{
+    margin: 2vh 0;
+} 
+
+footer .details .detail ul{
+    list-style: none;
+}
+
+
+footer .details .detail img{
+    height: 2rem;
+}
+
+
+
+
+    @media screen and (min-width:700px) {
+header .menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header .menu span{
+    margin-top: 0.7rem;
+}
+        
+.one .left .feature p{
+    font-size: 01rem;
+    
+
+    }
+    .one .left .featur p{
+        font-size: 01rem;
+        
+    
+        }
+        .one .left p{
+            font-weight: lighter;
+            font-size: 1.25rem;
+    }
+   .one .right .foreground{
+    width: 100%;
+    height: 50%;
+   }
+
+   .two .left .foreground{
+    width: 60%;
+    height: 70%;
+
+   }
+
+
+    .three{
+        background: url('./images/bbbb.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 60vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .three .offers{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    
+.three .offers .offer p{
+font-size: 1rem;
+}
+.three h5{
+    font-size: 1rem;
+}
+    .three{
+        margin-bottom: 5rem;
+    }
+
+
+    .four .foods{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    }
+    .four .all{
+        width: 25%;
+    }
+    footer .details .boxes{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        height: 30vh;
+}
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1200px){
+    header{
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        margin-left: 2rem;
+    
+    
+    }
+    header h1{
+        font-size: 1.2rem;
+    }
+    header .menu  span{
+        margin-top: 0.5rem;
+        
+    }
+    .one{
+        height: 60vh;
+        width: 100vw;
+    }
+    
+    
+    .one{
+        display: grid;
+        grid-template-columns: 40% auto;
+        position: relative;
+    }
+    .one .left h1{
+        margin-top: 2rem;
+    }
+    .one .left p{
+        margin-top: 1rem;
+    }
+    .one .left button{
+        margin-top: 1rem;
+    }
+
+    .one .left .features{
+        display: grid;
+        margin-top: 3rem;
+        grid-template-columns: repeat(3, 1fr);
+        position: absolute;
+        width:55%;
+    }
+    .one .left .feature p{
+        font-size: 0.9rem;
+        
+    
+        }
+        .one .left .featur p{
+            font-size: 0.9rem;
+        }
+        .one .right .background{
+            position: absolute;
+            top: -30%;
+            height:90vh;
+            width:auto;
+        }
+        .one .right .foreground{
+    
+            width:100%;
+            height: 50%;
+        }
+.two{
+    display: grid;
+    grid-template-columns: 50% auto;
+    
+    align-items: center;
+}
+.two{
+    margin-top: 10rem;
+    height: 100%;
+    width: 100%;
+}
+        .two .left .background{
+            width: 80%;
+        }
+        .two .left .foreground{
+            width: 75%;
+        }
+        
+
+        
+.three .offers{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+padding: 2rem;
+}
+.three{
+    background: url('./images/bbbb.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.three .offers{
+width: 70%;
+margin: 0 auto;
+}
+.four .foods{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+gap: 1rem;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 100vh;
+    margin: 0 auto;
+
+}
+
+.four .all{
+    width: 10%;
+    align-self: center;
+
+}
+
+footer{
+    position: relative;
+    display: grid;
+    margin-top: 15vh;
+}
+
+footer .special{
+    margin: auto;
+    width: 60%;
+    border: 1px solid #666666;
+    border-radius: 50px;
+    position: absolute;
+    top: -20%;
+    justify-self: center;
+    background-color:white;
+
+}
+footer .special .input{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-items: center;
+margin: auto;
+}
+footer .special .input input{
+    border: none;
+    
+}
+
+ footer .details{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 25% auto;
+    align-items: center;
+ }   
+ footer .boxes{
+    align-items: center;
+ }
+
+}
+.hello{
+    text-align: center;
+}     
+
+
+
+
